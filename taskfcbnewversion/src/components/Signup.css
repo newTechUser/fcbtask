@@ -1,0 +1,97 @@
+.boxcontainer{
+    border: 2px solid gray;
+    width: 400px;
+}
+.boxcontainercontent{
+    padding: 30px;
+    border:1px solid rgb(247, 230, 230)
+}
+.boxcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.signtext{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+.mainsigntext{
+    margin: 0;
+}
+.boxicon{
+    font-size: 30px
+}
+.boxtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 0;
+}
+.name{
+    height: 30px;
+    width: 40%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.num{
+    height: 30px;
+    width: 85%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.boxformside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxform{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.birthtext{
+    text-align: left;
+}
+.birthclass{
+    width: 30%;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.birthselect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.shape{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.shapecontent{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.boxendtext{
+    text-align: left;
+    width: 300px;
+    font-size: 9px;
+}
+.boxdivbtn{
+    text-align: center;
+}
+.boxbtn{
+    background-color: #00A400;
+    width: 50%;
+    border-radius: 10px;
+    color: white;
+}
