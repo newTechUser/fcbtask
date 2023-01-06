@@ -4,10 +4,10 @@ import { useState } from 'react'
 
 
 function Login({setShow}) {
-    const [Opacity, setOpacity] = useState('')
-    
+    // const [Opacity, setOpacity] = useState('')
+    // style={{ opacity: Opacity }}
     return (
-        <div className="bodycontent" style={{ opacity: Opacity }}>
+        <div className="bodycontent" >
             <div className="container">
                 <div className="textdiv">
                     <img className='image' src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="" />
