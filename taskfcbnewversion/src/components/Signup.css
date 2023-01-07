@@ -1,5 +1,5 @@
 .boxcontainer{
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     width: 400px;
 }
 .boxcontainercontent{
@@ -36,6 +36,11 @@
     border-radius: 5px;
     border: 1px solid gray;
     padding-left: 10px;
+}
+.errorname{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .num{
     height: 30px;
